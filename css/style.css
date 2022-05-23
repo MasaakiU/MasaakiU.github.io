@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/*
+ * "Fredericka" is lisenced under the SIL Open Font License 1.1
+ * http://fonts.googleapis.com
+ * https://www.google.com/fonts/attribution
+ * http://scripts.sil.org/OFL
+ */
+
+
+/* --------------------------------------------------
+  変数
+-------------------------------------------------- */
+
+:root {}
+
+
+/* --------------------------------------------------
+  設定
+-------------------------------------------------- */
+
+
+/* *****共通設定***** */
+
+a {
+    color: #696969;
+}
+
+a:hover {
+    color: #a9a9a9;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: #00008b !important;
+}
+
+.border-primary {
+    border-color: #00008b !important;
+}
+
+.bg-maincolor {
+    background-color: #f0f8ff !important;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.bg-yl-color {
+    background-color: #fffaf0 !important;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px #000;
+}
+
+.font-patrick {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+/* HEADER */
+
+.site-header {
+    background: #424245;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#nav01 .navbar-brand {
+    background: url("/img/my_logo.svg") no-repeat left center;
+    background-size: contain;
+    height: 50px;
+    width: 250px;
+}
+
+#nav02 .nav-fill {
+    margin-top: 0px;
+    width: 100%;
+}
+
+#nav02 .nav-item {
+    border-left: 1px solid #d6d6d6;
+    color: #d6d6d6;
+}
+
+#nav02 .last-list-md {
+    border-right: 1px solid #d6d6d6;
+    color: #d6d6d6;
+}
+
+
+/* フッター */
+
+#footer {
+    background-color: #7d7d7d !important;
+}
+
+
+/* 本文 */
+
+body {
+    background-color: #e6e6e6;
+    letter-spacing: 0.2em;
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* --------------------------------------------------
+  画像
+-------------------------------------------------- */
+
+.my-icon {
+    max-width: 60px;
+    min-width: 40px;
+    width: 100%;
+}
+
+
+/* --------------------------------------------------
+  レスポンシブ
+-------------------------------------------------- */
+
+
+/* md タブレット・スマートフォン向け */
+
+@media (max-width: 767.98px) {
+    #nav02 .nav-item {
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        letter-spacing: 0.25rem;
+    }
+}
+
+
+/* xs スマートフォン向け */
+
+@media (max-width: 575.98px) {
+    /* フッター */
+    #footer-sns img {
+        height: 29px;
+        margin-right: 15px;
+    }
+}

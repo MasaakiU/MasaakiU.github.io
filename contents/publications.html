@@ -22,88 +22,68 @@
     <!-- <meta name="twitter:card" content="">
     <meta name="twitter:site" content="@MasaakiU5"> -->
 
-    <!-- スタイルシート -->
+    <!-- スタイルシートはここから -->
     <!-- From LOCAL -->
     <link rel="stylesheet" href="/bootstrap-4/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css"> -->
     <!-- From CDN -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <!-- bootstrap from CDN -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
     <!-- bootstrap from LOCAL -->
+    <!-- <script src="bootstrap-5.1.3-dist/jquery-3.6.0.min.js"></script> -->
+    <!-- <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="/bootstrap-4/jquery-3.6.0.min.js"></script>
     <script src="/bootstrap-4/js/bootstrap.bundle.min.js"></script>
-    <!-- sctripts to include shared html scripts -->
     <script src="/js/include.js"></script>
 
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 </head>
 
-<body class="responsive-body">
+<body class="responsive-body" id="page-top">
 
     <!--------------------------------------------
-  HEADER
---------------------------------------------->
+    HEADER
+    --------------------------------------------->
     <script>
         header();
     </script>
 
     <!--------------------------------------------
-  MAIN
---------------------------------------------->
+    MAIN
+    --------------------------------------------->
     <main>
         <!------------------------------->
-        <div class="container jumbotron text-center mt-5">
-            <div class="row justify-content-center">
-                <div class="container">
-                    <h1 class="display-4">Masaaki Uematsu</h1>
-                    <p>Postdoctral Fellow at Cornell University</p>
-                    <div class="container pt-4">
-                        <h4>Interests</h4>
-                        <p>Fascinated by the complexity of lipids, I aim to re-define membrane trafficking from a lipid perspective.
-                            <br>New discoveries through new technologies</p>
-                    </div>
+        <div class="container mt-5">
+            <div class="row py-3">
+                <div class="container jumbotron">
+                    <h1>Original articles</h1>
+                    <p><u>M. Uematsu</u>, T. Shimizu
+                        <br>Raman microscopy-based quantification of the physical properties of intracellular lipids.
+                        <br><a href="https://doi.org/10.1038/s42003-021-02679-w">Commun Biol. 2021 Oct 8;4(1):1176.</a>
+                    </p>
+                    <p><u>M. Uematsu</u>, Y. Kita, T. Shimizu, H. Shindou
+                        <br>Multiplex fatty acid imaging inside cells by Raman microscopy.
+                        <br><a href="https://doi.org/10.1096/fj.202000514R">FASEB J. 2020 Aug;34(8):10357-10372.</a>
+                    </p>
+                    <p><u>M. Uematsu</u>, T. Nishimura, Y. Sakamaki, H. Yamamoto, N. Mizushima
+                        <br>Accumulation of undegraded autophagosomes by expression of dominant-negative STX17 (syntaxin 17) mutants.
+                        <br><a href="https://doi.org/10.1080/15548627.2017.1327940">Autophagy. 2017 Aug 3;13(8):1452-1464.</a>
+                    </p>
                 </div>
-            </div>
-            <div class="row p-3 justify-content-center">
-                <div class="col-md-5 mt-2">
-                    <h4>Disciplines</h4>
-                    <p>Cell BIology<br>Lipid Biology</p>
-                </div>
-                <div class="col-md-5 my-2">
-                    <h4>Keywords</h4>
-                    <p>Autophagy<br>Membrane trafficking<br>Lipidomics<br>Raman microscopy</p>
+                <div class="container jumbotron">
+                    <h1>Reviews etc.</h1>
+                    <p><u>植松真章（M. Uematsu）</u>、徳舛 富由樹（F. Tokumasu）、進藤英雄（H. Shindou）<br>脂肪酸の新しい可視化技術<br>
+                        <a href="https://www.molcom.jp/products/detail/134123/">実験医学別冊　脂質解析ハンドブック（ISBN 978-4-7581-2241-2）</a>
+                    </p>
+
                 </div>
             </div>
         </div>
-        <!------------------------------->
-        <section id="sec1" class="container jumbotron">
-            <h1 class="text-center py-3">Recent Updates</h1>
-            <div class="container">
-                <div class="row py-3">
-                    <div class="col-lg-6 mb-2">
-                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm p-3">
-                            <div class="col p-4 d-flex flex-column">
-                                <h3>Publications</h3>
-                                <p>Under construction...</p>
-                                <a href="/contents/publications.html" class="icon-link"><i class="fas fa-arrow-right mr-2"></i>Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-2">
-                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm p-3">
-                            <div class="col p-4 d-flex flex-column">
-                                <h3>Posts</h3>
-                                <p>Under construction...</p>
-                                <a href="/contents/posts.html" class="icon-link"><i class="fas fa-arrow-right mr-2"></i>Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <!--------------------------------------------
